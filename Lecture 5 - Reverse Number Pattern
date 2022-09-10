@@ -1,0 +1,24 @@
+import java.util.*;
+public class Solution {
+
+
+    public static void main(String[] args) {
+
+        Scanner s = new Scanner(System.in);
+        int n= s.nextInt();
+
+        int i=1;
+        while(i<=n){
+            int j=i;
+            while(j>=1){
+                // int p=(i*1)+1;
+                System.out.print(j);
+                // p++;
+                j--;
+            }
+            System.out.println();
+            i++;
+        }
+
+
+    }
