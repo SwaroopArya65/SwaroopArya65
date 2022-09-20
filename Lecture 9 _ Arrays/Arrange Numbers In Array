@@ -1,0 +1,19 @@
+public class Solution {
+    
+    public static void arrange(int[] arr, int n) {
+    	
+        int si=0, ei=arr.length-1;
+        int val=1;
+        for(int i=0; i<n/2; i++) {
+            arr[si] = val;
+            val++;
+            arr[ei] = val;
+            val++;
+            si++;
+            ei--;
+        }
+        if(n%2 != 0) {
+            arr[n/2] = n;
+        }
+    }
+}
