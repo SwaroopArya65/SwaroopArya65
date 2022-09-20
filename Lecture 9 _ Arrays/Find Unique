@@ -1,0 +1,56 @@
+import java.util.*;
+////SECOND APPROACH USING XOR/////
+//// 1^1 = 0
+//// 0^4 = 4
+
+public class Solution{
+public static int findUnique(int[] arr)
+{
+
+ int result = 0;
+    for(int i=0;i<arr.length;i++)
+    {
+        result = result ^ arr[i];
+    }
+                    
+    // return (result>0 ? result : -1);
+    if(result>0){
+        return result;
+    }
+    
+   return -1;
+}
+}
+
+
+// public class Solution{  
+//     public static int findUnique(int[] arr) {
+// 		//Your code goes here
+//         int count,val=0;
+//         if (arr.length==1) {
+//             return arr[0];
+//         }
+//         outer:for (int i=0;i<arr.length;i++) {
+//             count=1;
+//             //System.out.println("Element checked at position " + i + " : " + arr[i]);
+//             inner:for (int j=0;j<arr.length;j++) {
+//                 if ((arr[i] == arr[j]) && (i != j)) {
+//                     count=count+1;
+//                 }
+//                 if (count==2) {
+//                     //System.out.println("Element is present more than once");
+//                     break inner;
+//                 }
+//             }
+//             if (count==1)
+//             {
+//                 //System.out.println("Element with single occurence found: " + arr[i]);
+//                 val=arr[i];
+//                 //System.out.println(val);
+//                 break outer;
+//             }
+//             //System.out.println("");   
+//         }
+//         return val;
+//     }
+// }
