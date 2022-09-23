@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main {
+	
+	public static void main(String[] args) {
+		// Write your code here
+		Scanner s = new Scanner(System.in);
+		int n = s.nextInt();
+		
+		int i,j;
+		int m = n;
+		// outer Loop
+		for(i=1; i<=n; i++) {
+			// Space loop
+			for(int k=1; k<=i-1; k++) {
+				System.out.print(" ");
+			}
+			// inner Loop
+			for(j=1; j<=n; j++) {
+				System.out.print("*");
+			}
+			
+			System.out.println();
+			m++;
+		}
+	}
+}
