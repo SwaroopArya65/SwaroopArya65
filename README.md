@@ -1,4 +1,4 @@
-![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
+![MasterHead]https://www.dreamstime.com/vector-set-web-design-concept-vertical-banners-website-development-responsive-app-portfolio-templates-modern-thin-line-flat-image108137509)
 <h1 align="center">Hi 👋, I'm Arya Swaroop</h1>
 <h3 align="center">A passionate full-stack web developer from India</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
