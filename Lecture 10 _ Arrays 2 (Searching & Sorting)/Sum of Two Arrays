@@ -1,0 +1,75 @@
+
+public class Solution {
+
+    public static void sumOfTwoArrays(int arr1[], int arr2[], int output[]) {
+    	//Your code goes here
+        int carry=0,val=0,k=output.length-1;
+        for (int i=arr1.length-1,j=arr2.length-1;i>=0 || j>=0;i--,j--)
+        {
+            
+            if (i>=0 && j>=0)
+            {
+                //System.out.println("Adding digits at index " + i + " of arr1 and index " + j + " of arr2 and carry " + carry);
+                val=arr1[i]+arr2[j]+carry;
+                //System.out.println(val);
+                if (val>9)
+                {
+                    //System.out.println("Setting carry = 1 for next addition");
+                    val=val-10;
+                    carry=1;
+                }
+                else
+                {
+                    //System.out.println("Setting carry = 0 for next addition");
+                    carry=0;
+                }
+            }
+            
+            else if (i>=0)
+            {
+                //System.out.println("Adding digits at index " + i + " of arr1 and carry " + carry);
+                val=arr1[i]+carry;
+                //System.out.println(val);
+                if (val>9)
+                {
+                    //System.out.println("Setting carry = 1 for next addition");
+                    val=val-10;
+                    carry=1;
+                }
+                else
+                {
+                    //System.out.println("Setting carry = 0 for next addition");
+                    carry=0;
+                }
+            }
+            
+            else if (j>=0)
+            {
+                //System.out.println("Adding digits at index " + j + " of arr2 and carry " + carry);   
+                val=arr2[i]+carry;
+                //System.out.println(val);
+                if (val>9)
+                {
+                    //System.out.println("Setting carry = 1 for next addition");
+                    val=val-10;
+                    carry=1;
+                }
+                else
+                {
+                    //System.out.println("Setting carry = 0 for next addition");
+                    carry=0;
+                }
+            }
+            
+            output[k]=val;
+            k--;
+            
+        }
+        //System.out.println("k = " + k);
+        if (k==0)
+        {
+            output[k]=carry;
+        }
+    }
+
+}
