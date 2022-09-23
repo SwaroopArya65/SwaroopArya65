@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main {
+	
+	public static void main(String[] args) {
+		// Write your code here
+		Scanner s = new Scanner(System.in);
+		 int n= s.nextInt();
+		 
+	  int r,sum=0,temp;    
+	  //It is the number variable to be checked for palindrome. 
+	  
+	  temp=n;    
+	  while(n>0){    
+	   r=n%10;  //getting remainder  
+	   sum=(sum*10)+r;    
+	   n=n/10;    
+	  }    
+	  if(temp==sum) {
+		  System.out.println("true");      
+	  }
+	  else {
+		  System.out.println("false");      
+	  }
+	   
+	}
+}
