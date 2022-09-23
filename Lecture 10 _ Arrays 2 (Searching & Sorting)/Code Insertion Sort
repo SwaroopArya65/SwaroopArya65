@@ -1,0 +1,16 @@
+
+public class Solution {  
+
+    public static void insertionSort(int[] arr) {
+    	//Your code goes here
+        for (int i=1;i<arr.length; i++) { // inserted Ith element in sorted position
+			int j;
+			int temp = arr[i]; 
+			for ( j=i-1; j>=0 && arr[j]>temp; j--) {
+				arr[j+1] = arr[j];
+			}
+			arr[j+1] = temp;   // position will be j+1
+		}
+    }
+
+}
