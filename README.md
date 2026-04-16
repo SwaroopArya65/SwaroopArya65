@@ -25,12 +25,15 @@
 
 ## 🌐 Portfolio & Live Work
 
-<p align="center">
+<p align="start">
   <a href="https://your-portfolio-link.com">
     <img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=vercel&logoColor=00F7FF" />
   </a>
   <a href="https://nextnix.vercel.app">
     <img src="https://img.shields.io/badge/Live%20Project-Nextnix-000000?style=for-the-badge&logo=vercel&logoColor=00F7FF" />
+  </a>
+  <a href="https://nextnix.vercel.app">
+    <img src="https://img.shields.io/badge/Updating%20Project-Nextnix-000000?style=for-the-badge&logo=vercel&logoColor=00F7FF" />
   </a>
 </p>
 
