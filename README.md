@@ -13,7 +13,7 @@
 
 ## 🚀 About Me
 
-<img align="right" alt="coding" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+<img align="right" alt="coding" width="300" height="auto" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
 - 🎓 MCA Graduate  
 - 💻 Full Stack Developer (MERN)  
